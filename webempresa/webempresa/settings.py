@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #CKeditor
+    'ckeditor', 
     'core',#Se realizo la implementación de la app core
     'services.apps.ServicesConfig', 
     #Implementación de la configuración de la app services
