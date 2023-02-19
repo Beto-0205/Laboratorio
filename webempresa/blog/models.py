@@ -34,4 +34,3 @@ class Post(models.Model):
     #Show name
     def __str__(self):
         return self.title
-

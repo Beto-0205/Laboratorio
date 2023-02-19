@@ -1,17 +1,10 @@
 {% extends 'core/base.html' %}
-
 {% load static %}
-
 {% block title %} {{category}} {% endblock %}
-
 {% block background %}{% static 'core/img/bg.jpg' %}{% endblock %}
-
     {% block headers %}
-
     {%endblock%}
-
 {%block content%}
-   
   <body>
     {% for post in category.get_post.all %}
     <section class="page-section cta">
@@ -48,8 +41,6 @@
     {%endblock%}
 
     {% block footer %}
-
-
     <footer class="footer text-faded text-center py-5">
       <div class="container">
         <p class="m-0">
@@ -86,5 +77,4 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     {% endblock %}
-
 </html>
